@@ -1,4 +1,4 @@
-# This tool allows the user to improve their French writing ability by responding to questions randomly generated
+# This tool allows the user to improve their French writing ability through a quick feedback loop.
 # Created by: Daniel Berrones [email: Daniel.A.Berrones@gmail.com]
 
 
