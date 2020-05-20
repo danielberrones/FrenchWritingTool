@@ -144,16 +144,17 @@ class FrenchQuestions:
             "Veux-tu que je te le dise?"]
 
     def prompt(self):
-        print("\n********************************************************************")
+        #print("\n********************************************************************")
         print("Bienvenue!  Tu es un étudiant vraiment intelligent... c'est vrai?!")
-        print("********************************************************************")
+        #print("********************************************************************")
         sleep(1.5)
-        print("INSTRUCTIONS:".center(40,"-"))
-        print("\tRespond to these questions as fast as you can.  Do not pay attention to your errors.")
-        print("\tThe quick feedback loop maximizes your brain's ability to learn new information.")
+        print("INSTRUCTIONS:".center(40,"*"))
+        print("Respond to these questions as fast as you can.  Do not pay attention to your errors.")
+        print("The quick feedback loop maximizes your brain's ability to learn new information.")
+        print("\n"*4)
         print("SELECTION MENU".center(40,"*"))
-        print("\t\t(Type '1' to show your responses)")
-        print("\t\t(Type '2' to exit)\n\n")
+        print("\t(Type '1' to show your responses)")
+        print("\t(Type '2' to exit)\n\n")
         sleep(1.5)
 
 
