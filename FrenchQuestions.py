@@ -1,6 +1,4 @@
 # This tool allows the user to improve their French writing ability through a quick feedback loop.
-# Created by: Daniel Berrones [email: Daniel.A.Berrones@gmail.com]
-
 
 from random import choice
 from time import sleep
@@ -144,15 +142,13 @@ class FrenchQuestions:
             "Veux-tu que je te le dise?"]
 
     def prompt(self):
-        #print("\n********************************************************************")
         print("Bienvenue!  Tu es un étudiant vraiment intelligent... c'est vrai?!")
-        #print("********************************************************************")
-        sleep(1.5)
-        print("INSTRUCTIONS:".center(40,"*"))
+        sleep(3.5)
+        print("INSTRUCTIONS:".center(20,"*"))
         print("Respond to these questions as fast as you can.  Do not pay attention to your errors.")
         print("The quick feedback loop maximizes your brain's ability to learn new information.")
         print("\n"*4)
-        print("SELECTION MENU".center(40,"*"))
+        print("SELECTION MENU".center(20,"*"))
         print("\t(Type '1' to show your responses)")
         print("\t(Type '2' to exit)\n\n")
         sleep(1.5)
@@ -208,7 +204,6 @@ class FrenchQuestions:
                 self.answerContainer = self.answerContainer + [self.userAnswer]
                 self.all = dict(zip(self.questionContainer, self.answerContainer))
                 self.counter += 1
-                
 
 
 def main():
